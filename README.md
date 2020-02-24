@@ -2,7 +2,7 @@
 
 
 # Image Compare
-1. Create an account with Applitools (https://applitools.com/users/login).
+1. Login or create an account with Applitools (https://applitools.com/users/login).
 2. Retrieve the platform API key within My Profile -> My API Key
 3. Add your API key into 'test.properties'
 4. Copy your baselines into 'ImagesBaseline'
