@@ -1,4 +1,4 @@
-## Initial implementation of ImageTester from Applitools which integrates with the Applitools product in order to compare images and PDFs. 
+## Initial implementation of ImageTester from Applitools which integrates with the Applitools platform in order to compare images and PDFs. 
 
 
 # Image Compare
@@ -11,12 +11,12 @@
 
 
 # Process
-The TestNG test 'ImageComparison' reviews files within two directories, one for creation of the baselines ('ImagesBaseline') and one to run potential different images
+The TestNG test 'ImageComparison' reviews files within two directories, initally for creation of the baselines ('ImagesBaseline') and then against to run potential different images in this demo implementation.
 
 
 # Notes
-Applitools Eyes works on the premise that all differences detected require manual user confirmation in order to fianlly confirm a 'Fail' result.
-This tool automatically groups images by file name so no prerequisite setup should be required to start using this tool.
+Applitools Eyes works on the premise that all anamolies detected require manual user confirmation in order to fianlly confirm a 'Fail' result.
+This tool automatically groups images by file name (and creates a new test batch) so no prerequisite setup should be required to start using this tool.
 
 
 # Console print outs depending on whether you have a match or a difference detected. 
