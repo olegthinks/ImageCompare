@@ -58,6 +58,6 @@ public class PDFTests extends BaseTests {
         Assert.assertTrue(invoiceNumber + ".pdf file was not moved to test location",
                 FileUtils.moveFile(downloadedPDF, destination));
 
-        Assert.assertTrue("Error validating PDF", EyesManager.validatePDF(destination));
+        Assert.assertTrue("Error validating PDF", EyesManager.validate(destination));
     }
 }
